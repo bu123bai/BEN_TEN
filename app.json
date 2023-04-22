@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Moviesbotz/ben-url-filter-bot",
-    "repository": "https://github.com/Moviesbotz/ben-url-filter-bot",
+    "website": "https://github.com/suryanshvikramsingh/autofiltershortnerbot",
+    "repository": "https://github.com/suryanshvikramsingh/autofiltershortnerbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -75,7 +75,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "eco"
+            "size": "free"
         }
     }
 }
