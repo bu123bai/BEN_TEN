@@ -43,7 +43,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "TTpro")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -55,13 +55,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SVSTEAMSTUDIODISCUSSION')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+srmlhplS9Mk3MGJl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/svs_team_bot')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/svs_team_bot/3')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/svs_support_chat')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+srmlhplS9Mk3MGJl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
